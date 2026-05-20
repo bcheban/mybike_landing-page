@@ -1,0 +1,23 @@
+{
+  "name": "layout_landing-page",
+  "version": "1.0.0",
+  "description": "MyBike landing page",
+  "homepage": "https://bcheban.github.io/layout_landing-page/",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "bcheban",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "sass": "^1.93.2",
+    "vite": "^6.3.6"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
