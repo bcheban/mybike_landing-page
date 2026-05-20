@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bcheban/mybike_landing-page/main/images/logo-menu.svg" alt="MyBike Logo" width="180" />
+  <img src="https://raw.githubusercontent.com/bcheban/mybike_landing-page/master/images/logo-menu.svg" alt="MyBike Logo" width="180" />
 </p>
 
 <h1 align="center">MyBike — Landing Page</h1>
