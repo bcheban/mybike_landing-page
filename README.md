@@ -5,79 +5,95 @@
 <h1 align="center">MyBike — Landing Page</h1>
 
 <p align="center">
-  <strong>A pixel-perfect, BEM-structured bike-shop landing page — built with semantic HTML, SCSS, and Vite.</strong>
+  <strong>A stylish landing page for an electric-bike brand — immersive hero, product comparison, and responsive layout. Built with HTML and SCSS.</strong>
 </p>
 
 <p align="center">
-  <a href="https://bcheban.github.io/mybike_landing-page/">Live Demo</a> |
-  <a href="https://github.com/bcheban/mybike_landing-page">GitHub Repo</a>
+  <a href="https://bcheban.github.io/mybike_landing-page/">🔗 Live Demo</a> |
+  <a href="https://github.com/bcheban/mybike_landing-page">💻 GitHub Repo</a>
 </p>
-
 
 ---
 
 ## 📌 Project Overview
 
-This project is a fully responsive **bike-shop landing page**, built from a Figma design as part of the **Mate Academy** layout course.  
-The markup follows the **BEM methodology**, with styling split into per-block SCSS partials (`header`, `nav`, `about`, `compare`, `details`, `contact`, `form`, `footer`, etc.) and shared utilities (`mixins`, `variables`).
-
-It is bundled with **Vite**, written in semantic **HTML5**, and enhanced with a small amount of vanilla JavaScript for interactive elements like the mobile menu. Code quality is enforced through a complete linting and formatting toolchain — Stylelint, ESLint, Prettier, and LintHTML — with **Cypress** end-to-end tests verifying the layout in CI.
+A polished marketing landing page for an electric-bike brand. Includes an immersive hero, a product compare section, feature highlights, pricing, and a contact form. Built with **semantic HTML** and structured **SCSS** (BEM-style) for maintainability. Mobile-first and pixel-aligned to a Figma reference.
 
 ---
 
-## 🚀 Features
+## 🌐 Live Preview
 
-- **🚲 Hero / Header Section** – Branded header with logo, navigation, and CTA.
-- **📱 Mobile Burger Menu** – Off-canvas menu with open/close icon states.
-- **ℹ️ About Section** – Introduces the brand and product story.
-- **🆚 Compare Section** – Side-by-side product comparison block.
-- **🔧 Details Section** – Detailed feature breakdown with imagery.
-- **📞 Contact Section** – Contact information and quick-action phone link.
-- **📝 Contact Form** – Styled form block for inquiries.
-- **🦶 Footer** – Branded footer with secondary navigation.
-- **🧱 BEM Methodology** – Strict, scalable class naming across all blocks.
-- **🧪 E2E Tested** – Cypress integration suite (`cypress/integration/page.spec.js`).
-- **🤖 CI Workflow** – Automated lint & test runs via GitHub Actions.
-- **📱 Fully Responsive** – Mobile-first layout with dedicated mobile background imagery.
+👉 **[https://bcheban.github.io/mybike_landing-page/](https://bcheban.github.io/mybike_landing-page/)**
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Technologies Used
 
-### Core Markup & Build Tools
+### Core
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-</p>
-
-### Styling
-<p>
   <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS" />
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
-  <img src="https://img.shields.io/badge/BEM-1A1A1A?style=for-the-badge&logo=html5&logoColor=white" alt="BEM" />
-  <img src="https://img.shields.io/badge/Stylelint-263238?style=for-the-badge&logo=stylelint&logoColor=white" alt="Stylelint" />
-</p>
-
-### Testing
-<p>
-  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
-</p>
-
-### Linting & Formatting
-<p>
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
-  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="Prettier" />
-  <img src="https://img.shields.io/badge/LintHTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="LintHTML" />
-  <img src="https://img.shields.io/badge/BEMlint-1A1A1A?style=for-the-badge&logo=html5&logoColor=white" alt="BEMlint" />
-</p>
-
-### CI / CD
-<p>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 ### Deployment
 <p>
   <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages" />
+</p>
+
+---
+
+## ⚙️ Getting Started
+
+### 📋 Prerequisites
+
+- **Node.js** `v20.x` or higher
+- **npm** `v10.x` or higher
+
+### 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/bcheban/mybike_landing-page.git
+   cd mybike_landing-page
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the dev server:**
+   ```bash
+   npm start
+   ```
+
+### 🧰 Available Scripts
+
+| Script              | Description                              |
+| ------------------- | ---------------------------------------- |
+| `npm start`         | Start the local dev server               |
+| `npm run build`     | Build for production                     |
+| `npm run deploy`    | Deploy to GitHub Pages                   |
+
+---
+
+## 🚀 Features
+
+- **🚴 Immersive Hero** – Full-bleed product imagery with overlaid copy.
+- **🔁 Product Compare** – Side-by-side comparison of bike models.
+- **💰 Pricing Section** – Clear tiers and CTAs.
+- **📩 Contact Form** – Inquiry form with validation.
+- **📱 Fully Responsive** – Mobile, tablet, desktop breakpoints.
+- **🎨 BEM SCSS** – Maintainable, scoped styles.
+
+---
+
+## 📊 Lighthouse
+
+![Lighthouse scores](docs/lighthouse.png)
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/bcheban">@bcheban</a>
 </p>
