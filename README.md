@@ -90,7 +90,10 @@ A polished marketing landing page for an electric-bike brand. Includes an immers
 
 ## 📊 Lighthouse
 
-![Lighthouse scores](docs/lighthouse.png)
+<p>
+  <img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fbcheban.github.io%2Fmybike_landing-page%2F&strategy=mobile" alt="Lighthouse mobile scores" />
+  <img src="https://bohdancheban-portfolio.vercel.app/api/lighthouse?url=https%3A%2F%2Fbcheban.github.io%2Fmybike_landing-page%2F&strategy=desktop" alt="Lighthouse desktop scores" />
+</p>
 
 ---
 
